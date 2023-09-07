@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  padding: 0 30px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+a {
+  color: rgb(70, 70, 202);
+  text-decoration-color: transparent;
+  transition: 0.2s ease;
+  margin-right: 30px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+img {
+  height: 425px;
+  display: block;
+  margin: 0 auto;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+.content p {
+  width: 40%;
+}
+
+.footer {
+  margin: 50px auto 25px auto;
+  text-align: center;
+}
+
+.github-ahmet {
+  font-size: 16px;
+}
