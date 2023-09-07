@@ -30,7 +30,7 @@ a {
   color: rgb(70, 70, 202);
   text-decoration-color: transparent;
   transition: 0.2s ease;
-  margin-right: 30px;
+  margin-left: 30px;
 }
 
 .navbar {
@@ -40,7 +40,11 @@ a {
   margin-top: 25px;
 }
 
-img {
+.navbar img {
+  height: 64px;
+}
+
+.content div img {
   height: 425px;
   display: block;
   margin: 0 auto;
